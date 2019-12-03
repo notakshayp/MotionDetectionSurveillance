@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 now = datetime.now()
 current_time = now.strftime("%H%M%S")
-capture =cv2.VideoCapture("2suma.avi")
+capture =cv2.VideoCapture("filename.avi")
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 time.sleep(1)
